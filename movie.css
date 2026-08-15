@@ -1,71 +1,51 @@
-* {
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    /* background-color: black; */
-
 }
-
 body {
     background-color: rgb(36, 34, 34);
 }
-
-
-.navbar {
+.navbar{
     width: 100%;
     height: 70px;
     background-color: black;
-    display: flex;
+    display:flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 15%;
 }
-
-.navbar>img {
+.navbar>img{
     height: 100%;
     width: 200px;
-    background-color: black;
 }
-
-.navbar>.menu>a {
+.navbar>.menu>a{
     font-family: "Bebas Neue", sans-serif;
     font-size: 25px;
-    border-color: black;
     text-decoration: none;
     margin-left: 15px;
     color: white;
 }
-
-.menu>a:nth-child(1) {
+.menu>a:nth-child(1){
     color: yellow;
 }
-
-.menu>a:hover {
-    color: yellow;
+.menu>a:hover{
+    color: greenyellow;
     text-decoration-line: underline;
 }
-
-.banner {
+.banner{
     width: 100%;
 }
-
-.banner>img {
+.banner>img{
     width: 100%;
     object-fit: cover;
 }
-
 .movie {
     background-color: rgb(36, 34, 34);
     padding: 0 15%;
     display: flex;
     flex-direction: column;
 }
-
-.movie>.main-movie {
-    display: flex;
-    flex-direction: row;
-}
-
 .movie>h2 {
     color: rgb(249, 241, 241);
     font-size: 45px;
@@ -74,85 +54,12 @@ body {
     border-bottom: solid 2px rgb(198, 179, 179);
     font-family: "Bebas Neue", sans-serif;
 }
-
-.movie>.main-movie>a>img {
-    margin-top: 20px;
-    width: 350px;
-    height: 500px;
-}
-
-.movie>.main-movie>.text {
-    color: white;
-    padding: 35px;
-    margin-top: 2px;
-}
-
-.movie>.main-movie>.text>h1 {
-    /* margin-top: 10px; */
-    font-family: "Suwannaphum", serif;
-    font-size: 32px;
-    font-weight: 1px;
-    font-style: normal;
-
-}
-
-.movie>.main-movie>.text>p {
-    font-family: "Suwannaphum", serif;
-    font-size: 17px;
-
-}
-
-.text>:hover {
-    color: yellow;
-}
-
-.movie>.main-movie>.text>.btn>button {
-    padding: 10px 40px;
-    color: rgb(241, 248, 248);
-    background-color: transparent;
-    border-width: 10px;
-    border: 2px solid rgb(211, 212, 204);
-    font-family: "Merriweather", serif;
-    font-size: 16px;
-}
-
-.movie>.main-movie>.text>.btn>button:hover {
-    color: yellow;
-    text-decoration-line: underline;
-    border-color: yellow;
-}
-
-.movie>.main-movie>.text>.btn {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: row;
-    gap: 15px;
-}
-
-.movie>.row-cart {
-    margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
+.movie>.row-cart{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
     gap: 20px;
+    padding: 20px;
 }
-
-.movie>.row-cart>.each-card {
-    box-sizing: border-box;
-
-}
-
-.movie>.row-cart>:hover {
-    color: yellow;
-    text-decoration-line: underline;
-    border-color: yellow;
-}
-
-button:hover {
-    color: yellow;
-    text-decoration-line: underline;
-    border-color: yellow;
-}
-
 .movie>.row-cart>.each-card img {
     width: 100%;
     height: 300px;
@@ -164,38 +71,10 @@ button:hover {
     text-align: center;
     margin-top: 30px;
 }
-
 .movie>.row-cart>.each-card>:hover {
     color: yellow;
     text-decoration-line: underline;
 }
-
-.movie>.row-cart>button {
-    margin-top: 30px;
-    padding: 10px 40px;
-    color: rgb(241, 248, 248);
-    background-color: transparent;
-    border-width: 10px;
-    border: 2px solid rgb(211, 212, 204);
-    font-family: "Merriweather", serif;
-    font-size: 16px;
-    margin-left: 35%;
-}
-
-.movie.row-cart>button:hover {
-    color: greenyellow;
-    text-decoration-line: underline;
-}
-
-.movie>h1 {
-    color: rgb(249, 241, 241);
-    font-size: 45px;
-    font-weight: 50;
-    margin-top: 50px;
-    border-bottom: solid 2px rgb(198, 179, 179);
-    font-family: "Bebas Neue", sans-serif;
-}
-
 .footer {
     width: 100%;
     height: 500px;
