@@ -73,7 +73,7 @@ body {
 }
 .movie>.row-cart>.each-card>:hover {
     color: yellow;
-    text-decoration-line: underline;
+    /* text-decoration-line: underline; */
 }
 .footer {
     width: 100%;

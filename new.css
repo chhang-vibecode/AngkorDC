@@ -86,7 +86,6 @@ body {
 }
 .text p:hover{
     color: yellow;
-    text-decoration-line: underline;
 }
 .footer {
     width: 100%;
