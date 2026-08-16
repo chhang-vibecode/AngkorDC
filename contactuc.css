@@ -44,34 +44,129 @@ body {
     height: 700px;
     width: 100%;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     /* background-color: aqua; */
 }
-.contact>.left-bar{
+.top1{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: row;
+}
+.contact>.top1>.left-bar{
     height: 100%;
     width: 50%;
-    background-color: blue;
+    /* background-color: black; */
 }
-.left-bar>.address{
-    margin-top: 20px;
+.top1>.left-bar>.address{
+    /* margin-top: 20px; */
     font-size: 20px;
 }
-.left-bar>.address h2{
+.top1>.left-bar>.address h2{
+    margin-top: 30px;
     color: white;
 }
-.left-bar>.address p{
-    margin-top: 10px;
+.top1>.left-bar>.address p{
+    margin-top: 20px;
     color: rgb(151, 147, 147);
 }
-.contact>.right-bar{
+.contact>.top1>.right-bar{
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 50%;
-    background-color: brown;
+    /* background-color: brown; */
+}
+.top1>.right-bar> h2{
+    font-size: 30px;
+    color: white;
+    margin-top: 30px;
+}
+.top1>.right-bar>.form>{
+    display: flex;
+    flex-direction: column;
+
+}
+.top1>.right-bar>.form>.name{
+    margin-top: 20px;
+}
+.top1>.right-bar>.form>.name> input{
+    padding: 10px 40px;
+    color: rgb(241, 248, 248);
+    background-color: transparent;
+    width: 100%;
+    border:  solid rgb(211, 212, 204);
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+}
+.submit-btn textarea {
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: rgb(241, 248, 248);
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    border:  solid rgb(211, 212, 204);
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+}
+.contact>.buttom1{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.buttom1>.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(88, 59, 59); */
+}
+.buttom1>.left>.contact1{
+    font-size: 20px;
+}
+.buttom1>.left>.contact1 h2{
+    color: white
+}
+.buttom1>.left>.contact1>.li3{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-top: 20px;
+}
+.li3>.i{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.li3>.i i {
+    color: rgb(200, 186, 186);
+}
+.li3>.i p {
+    color: yellow;
+}
+.buttom1>.right{
+    width: 50%;
+    height: 100%;
+    /* background-color: rgb(28, 23, 23); */
+}
+.buttom1>.right button{
+    padding: 10px 40px;
+    color: rgb(241, 248, 248);
+    background-color: transparent;
+    border-width: 10px;
+    border: 2px solid rgb(211, 212, 204);
+    font-family: "Merriweather", serif;
+    font-size: 20px;
+}
+.buttom1>.right>button:hover{
+    color: yellow;
+    border-color: yellow;
+    
 }
 .footer {
     width: 100%;
     height: 500px;
-    margin-top: 50px;
+    margin-top: 30px;
     background-color: black;
     display: flex;
     flex-direction: column;
