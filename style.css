@@ -130,9 +130,10 @@ body {
 
 .movie>.row-cart {
     margin-top: 15px;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
     gap: 20px;
+    padding: 20px;
 }
 
 .movie>.row-cart>.each-card {
@@ -166,21 +167,25 @@ button:hover {
     color: yellow;
 
 }
+.btn2{
+   margin-left: 40%;
+}
 
-.movie>.row-cart>button {
-    margin-top: 30px;
+.movie>.btn2>button {
+    margin-top: 20px;
     padding: 10px 40px;
     color: rgb(241, 248, 248);
     background-color: transparent;
     border-width: 10px;
-    border: 2px solid rgb(211, 212, 204);
+    border: 1px solid rgb(211, 212, 204);
     font-family: "Merriweather", serif;
     font-size: 16px;
-    margin-left: 35%;
+    /* margin-left: 35%; */
 }
 
-.movie.row-cart>button:hover {
-    color: greenyellow;
+.movie>.btn2>button:hover {
+    border-color: yellow;
+    color: yellow;
 }
 
 .movie>h1 {
