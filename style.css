@@ -161,7 +161,7 @@ button:hover {
     transition: 0.3s;
 }
 .movie>.row-cart>.each-card img:hover{
-    transform: translate(-10px);
+    transform: scale(1.05);
 }
 
 .movie>.row-cart>.each-card>p {
@@ -308,6 +308,9 @@ button:hover {
     font-size: 30px;
     margin-left: 364px;
     color: rgb(105, 101, 101);
+}
+.follow>.i:hover{
+    color: white;
 }
 
 .footer>.buttom {
