@@ -48,7 +48,6 @@ body{
     margin-top: 20px;
 }
 .about>.ad>h2{
-    /* font-family: "Bebas Neue", sans-serif; */
     font-size: 50px;
     font-weight: 0;
     color: rgb(245, 180, 3);
@@ -83,6 +82,10 @@ body{
     height: 100px;
     width: 200px;
     justify-content: center;
+    transition: 0.3s;
+}
+.logo-1>a>img:hover{
+    transform: translate(10px);
 }
 
 .footer {
