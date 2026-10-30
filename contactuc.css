@@ -73,11 +73,11 @@ body {
     margin-top: 20px;
     color: rgb(151, 147, 147);
 }
-.top1>.left-bar>.address input{
+.top1>.left-bar>.address img{
     margin-top: 20px;
     width: 95%;
     height: 338px;
-    background-color: rgb(85, 231, 231);
+    /* background-color: rgb(85, 231, 231); */
     border:  solid transparent;
 }
 .contact>.top1>.right-bar{
