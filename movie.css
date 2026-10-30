@@ -56,20 +56,24 @@ body {
     gap: 20px;
     padding: 20px;
 }
+.movie>.row-cart>.each-card{
+    margin-top: 20px;
+    transition: 0.3s;
+}
 .movie>.row-cart>.each-card img {
     width: 100%;
     height: 300px;
     object-fit: cover;
-    transition: 0.3s;
 }
-img:hover{
+.each-card:hover{
     transform: scale(1.02);
+    color: yellow;
 }
 
 .movie>.row-cart>.each-card>p {
     color: #fff;
     text-align: center;
-    margin-top: 30px;
+    margin-top: 15px;
 }
 .movie>.row-cart>.each-card>:hover {
     color: yellow;
